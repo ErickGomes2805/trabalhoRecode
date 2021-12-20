@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+ body {
+     background-color: rgb(140, 206, 223);
+ }   
+
+ .maceio {
+     width: 30%;
+ }
+
+ .newyork {
+     width: 25%;
+ }
+
+ .belgica {
+     width: 30%;
+ }
+
+ .flex-container {
+     margin-top: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: stretch;
+     align-content: flex-end;
+ }
+
+.flex-container2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape {
+    margin-top: 240px;
+    background-color: rgb(162, 167, 172);
+}
+
+.rodape p {
+    text-align: center;
+}
